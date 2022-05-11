@@ -1,0 +1,214 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 0% 8% 8%;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav ul li a:hover {
+  color: rgb(239, 5, 118);
+  transition: transform 0.1s;
+}
+.btn {
+  background-color: rgb(239, 5, 118);
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 35px;
+  transition: transform 0.1s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+/* main */
+.main {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.main h1 {
+  color: white;
+  font-size: 50px;
+}
+.main h1 span {
+  color: red;
+}
+
+#aboutme {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main content {
+  line-height: 35px;
+  font-size: 25px;
+}
+.main content span {
+  color: red;
+}
+
+/*education*/
+
+#education {
+  margin-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+#education h1 {
+  color: white;
+  font-size: 50px;
+}
+#education h1 span {
+  color: red;
+}
+.list tr {
+  color: white;
+  font-size: 20px;
+}
+.list tr th {
+  color: aqua;
+  font-size: 20px;
+}
+
+/*skills*/
+
+#skills {
+  margin-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+#skills h1 {
+  color: white;
+  font-size: 40px;
+}
+#skills h1 span {
+  color: red;
+}
+.list {
+  color: white;
+  font-size: 25px;
+}
+
+/* work experience*/
+
+#exp {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#exp span {
+  color: red;
+}
+
+.exp {
+  margin-top: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: white;
+  display: block;
+}
+.exp h3 {
+  color: hwb(329 2% 2%);
+}
+.exp h3 {
+  font-size: 30px;
+}
+#matter {
+  font-size: 10px;
+}
+.exp h4 {
+  color: hwb(154 2% 4%);
+  font-size: 30px;
+}
+#matter2 {
+  margin-top: 2%;
+  font-size: 10px;
+}
+.Description {
+  margin-top: 2%;
+}
+#matter3 {
+  margin-top: 2%;
+}
+.responsibilities {
+  margin-top: 2%;
+}
+#matter4 {
+  margin-top: 2%;
+  font-size: 10px;
+}
+
+/*selectsys*/
+
+.selectsys {
+  margin-top: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: white;
+  display: block;
+}
+.selectsys h3 {
+  color: hwb(329 2% 2%);
+  font-size: 30px;
+}
+.selectsys h4 {
+  color: hwb(154 2% 4%);
+  font-size: 30px;
+}
+#matter5 {
+  margin-top: 2%;
+  font-size: 10px;
+}
+
+/*dhl*/
+
+.dhl {
+  margin-top: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: white;
+  display: block;
+}
+.dhl h3 {
+  color: hwb(329 2% 2%);
+  font-size: 30px;
+}
+.dhl h4 {
+  color: hwb(154 2% 4%);
+  font-size: 30px;
+}
+#matter6 {
+  margin-top: 2%;
+  font-size: 10px;
+}

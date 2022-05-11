@@ -1,0 +1,169 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  /*background-color: black;*/
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(pkr2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.hero h1 {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-style: oblique;
+  text-align: center;
+  padding-top: 2%;
+}
+.hero h1 span {
+  color: rgb(239, 5, 118);
+}
+
+/*
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.hero h1 {
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-style: oblique;
+}
+span {
+  color: rgb(239, 5, 118);
+}
+/*
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 10px 30px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+nav ul li a:hover {
+  color: rgb(239, 5, 118);
+  transition: 0.1s;
+}
+.btn {
+  background-color: rgb(239, 5, 118);
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 35px;
+  transition: transform 0.1s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+*/
+.name {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  margin: 20px 0px 20px;
+}
+h3 {
+  color: grey;
+  margin: 20px 0px 20px;
+  font-size: 30px;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h2 span {
+  color: rgb(241, 7, 7);
+}
+h2 span1 {
+  color: rgb(249, 131, 218);
+}
+.me {
+  float: right;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  background-position: 50%;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
+}
+.button {
+  color: #eee;
+  background: #2ecc71;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 8px 20px;
+  border: 2px solid #2ecc71;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 2px soloid rgb(239, 5, 118);
+  color: rgb(239, 5, 118);
+  transition: 0.2s;
+}
+
+.name h5 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: orangered;
+}
+
+.social a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.social a :hover {
+  color: rgb(5, 232, 244);
+  transition: 0.2s;
+  transform: scale(2.1);
+}
+
+.bottom {
+  margin-top: 243px;
+  padding-bottom: 30px;
+}
+.bottom p {
+  color: #eee;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
